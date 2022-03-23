@@ -28,7 +28,14 @@ namespace Proj22.Entity
                 .HasValue<User>((int)RoleValue.User)
                 .HasValue<Administrator>((int)RoleValue.Administrator)
                 .HasValue<Moderator>((int)RoleValue.Moderator);
+            builder.Entity<Post>()
+                .HasKey(k => new { k.Id, k.UserID, k.BlogId });
 
+            builder.Entity<Post>()
+                .HasOne(b => b.Blog)
+                .WithMany(p => p.Posts)
+                .HasForeignKey(i => i.BlogId);
+                
 
         }
     }

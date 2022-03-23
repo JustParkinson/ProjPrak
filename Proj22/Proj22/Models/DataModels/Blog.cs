@@ -11,6 +11,6 @@ namespace Proj22.Models.DataModels
         [Required]
         public string Name { get; set; }
         public string Description { get; set; }
-        IList<Post> Posts { get; set; }
+        public virtual IList<Post> Posts { get; set; }
     }
 }

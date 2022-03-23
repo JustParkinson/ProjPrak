@@ -9,7 +9,7 @@ namespace Proj22.Models.DataModels
 
         [Key]
         public int Id { get; set; }
-        public Blog Blog { get; set; }
+        public virtual Blog Blog { get; set; }
 
         [ForeignKey("Blog")]
         public int BlogId { get; set; }
