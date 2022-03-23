@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1sNV88vVtPVvzOfqmo1ox7GD9ljN5X/axkcmsH8LJO6IsjidzOIFpgFnRkIi3fKHRQcCJSpSpsRAYWjW+cDVWg==",
+  "dgSpecHash": "/6XC2g3DBSpST1dDje8D4z97++h9b6jhaVhP6Cc1SJrw+A0qN1fDby2E7IXWmjw+TCv9IEMCADxM/gL3cEf5SA==",
   "success": true,
-  "projectFilePath": "E:\\Dokumenty\\Repozytorium\\Proj22\\Proj22\\Proj22.csproj",
+  "projectFilePath": "E:\\Dokumenty\\Repozytorium\\ProjPrak\\Proj22\\Proj22\\Proj22.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erago\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\erago\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

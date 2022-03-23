@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Dokumenty\\Repozytorium\\Proj22\\Proj22\\Proj22.csproj": {}
+    "E:\\Dokumenty\\Repozytorium\\ProjPrak\\Proj22\\Proj22\\Proj22.csproj": {}
   },
   "projects": {
-    "E:\\Dokumenty\\Repozytorium\\Proj22\\Proj22\\Proj22.csproj": {
+    "E:\\Dokumenty\\Repozytorium\\ProjPrak\\Proj22\\Proj22\\Proj22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Dokumenty\\Repozytorium\\Proj22\\Proj22\\Proj22.csproj",
+        "projectUniqueName": "E:\\Dokumenty\\Repozytorium\\ProjPrak\\Proj22\\Proj22\\Proj22.csproj",
         "projectName": "Proj22",
-        "projectPath": "E:\\Dokumenty\\Repozytorium\\Proj22\\Proj22\\Proj22.csproj",
+        "projectPath": "E:\\Dokumenty\\Repozytorium\\ProjPrak\\Proj22\\Proj22\\Proj22.csproj",
         "packagesPath": "C:\\Users\\erago\\.nuget\\packages\\",
-        "outputPath": "E:\\Dokumenty\\Repozytorium\\Proj22\\Proj22\\obj\\",
+        "outputPath": "E:\\Dokumenty\\Repozytorium\\ProjPrak\\Proj22\\Proj22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erago\\AppData\\Roaming\\NuGet\\NuGet.Config",
