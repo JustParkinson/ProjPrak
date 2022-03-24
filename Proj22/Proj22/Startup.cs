@@ -18,8 +18,6 @@ namespace Proj22
 {
     public class Startup
     {
-        string x = "xsxs";
-
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
