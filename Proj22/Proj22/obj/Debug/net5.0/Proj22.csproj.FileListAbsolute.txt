@@ -294,3 +294,4 @@ E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Areas\Id
 E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_AuthLayout.cshtml.g.cs
