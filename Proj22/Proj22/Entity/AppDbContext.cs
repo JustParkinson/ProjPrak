@@ -1,6 +1,8 @@
-﻿using Proj22.Models.DataModels;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Proj22.Models.DataModels;
+using System;
 
 namespace Proj22.Entity
 {
@@ -35,6 +37,23 @@ namespace Proj22.Entity
                 .HasOne(b => b.Blog)
                 .WithMany(p => p.Posts)
                 .HasForeignKey(i => i.BlogId);
+
+            var hasher = new PasswordHasher<Administrator>();
+            builder.Entity<Administrator>()
+                .HasData(
+                new Administrator
+                {
+                    Id = 1,
+                    UserName = "Admin",
+                    FirstName = "Łuaksz",
+                    LastName = "Nowak",
+                    BrithDay = new DateTime(1999, 04, 23),
+                    PasswordHash = hasher.HashPassword(null, "admin"),
+                    Email = "xd@xd.pl",
+                    NormalizedEmail = "xd@xd.pl",
+                    EmailConfirmed = true
+
+                });
                 
 
         }
