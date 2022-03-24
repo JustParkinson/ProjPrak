@@ -293,17 +293,19 @@ namespace Proj22.Migrations
                             Id = 1,
                             AccessFailedCount = 0,
                             BrithDay = new DateTime(1999, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "ada46982-875c-426a-8836-f7473646c2fe",
+                            ConcurrencyStamp = "0295036b-a691-4ff8-b3a8-f6357f7a54d7",
                             Email = "xd@xd.pl",
                             EmailConfirmed = true,
-                            FirstName = "Łuaksz",
+                            FirstName = "Łukasz",
                             LastName = "Nowak",
                             LockoutEnabled = false,
                             NormalizedEmail = "xd@xd.pl",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOtqI4rBcGLyzWfle1Y1k8HJcTeaGLE7xaFzYHLzdHbLceTmi4QmGY2KgeQbYNWY5w==",
+                            NormalizedUserName = "ADMINLN",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOGOyVRdzvi+2uzYDg7XIb90P6c/elZ1lZ5xdRSDSrK4oX6k7CuF/hbDOVMCXNPyAA==",
                             PhoneNumberConfirmed = false,
+                            SecurityStamp = "481768b8-bd52-4c1e-8003-7cb2b8b8a0da",
                             TwoFactorEnabled = false,
-                            UserName = "Admin"
+                            UserName = "AdminLN"
                         });
                 });
 

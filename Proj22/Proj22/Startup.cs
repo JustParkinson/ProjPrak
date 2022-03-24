@@ -28,6 +28,7 @@ namespace Proj22
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddRazorPages();
             services.AddDbContext<AppDbContext>(
                 sr => sr.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
                 );
@@ -63,7 +64,7 @@ namespace Proj22
             app.UseRouting();
             app.UseAuthentication();
 
-            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

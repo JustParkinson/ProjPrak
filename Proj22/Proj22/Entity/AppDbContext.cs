@@ -30,6 +30,7 @@ namespace Proj22.Entity
                 .HasValue<User>((int)RoleValue.User)
                 .HasValue<Administrator>((int)RoleValue.Administrator)
                 .HasValue<Moderator>((int)RoleValue.Moderator);
+
             builder.Entity<Post>()
                 .HasKey(k => new { k.Id, k.UserID, k.BlogId });
 
@@ -44,14 +45,16 @@ namespace Proj22.Entity
                 new Administrator
                 {
                     Id = 1,
-                    UserName = "Admin",
-                    FirstName = "Łuaksz",
+                    UserName = "AdminLN",
+                    NormalizedUserName = "ADMINLN",
+                    FirstName = "Łukasz",
                     LastName = "Nowak",
                     BrithDay = new DateTime(1999, 04, 23),
-                    PasswordHash = hasher.HashPassword(null, "admin"),
+                    PasswordHash = hasher.HashPassword(null, "Admin123!@#"),
                     Email = "xd@xd.pl",
                     NormalizedEmail = "xd@xd.pl",
-                    EmailConfirmed = true
+                    EmailConfirmed = true,
+                    SecurityStamp = Guid.NewGuid().ToString("D")
 
                 });
                 
