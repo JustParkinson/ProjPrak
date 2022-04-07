@@ -57,8 +57,14 @@ namespace Proj22.Entity
                     SecurityStamp = Guid.NewGuid().ToString("D")
 
                 });
-                
-
+            builder.Entity<Blog>()
+                .HasData(
+                new Blog
+                {
+                    Id = 1,
+                    Name = "Example",
+                    Description = "This is example of an blog you can create."
+                });
         }
     }
 }
