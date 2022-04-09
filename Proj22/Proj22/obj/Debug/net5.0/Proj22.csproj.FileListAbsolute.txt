@@ -296,3 +296,12 @@ E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Areas\Id
 E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_AuthLayout.cshtml.g.cs
 E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\EntityFramework.dll
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\System.CodeDom.dll
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\System.Data.SqlClient.dll
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Dokumenty\Repozytorium\ProjPrak\Proj22\Proj22\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

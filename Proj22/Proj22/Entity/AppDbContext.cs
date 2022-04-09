@@ -39,32 +39,6 @@ namespace Proj22.Entity
                 .WithMany(p => p.Posts)
                 .HasForeignKey(i => i.BlogId);
 
-            var hasher = new PasswordHasher<Administrator>();
-            builder.Entity<Administrator>()
-                .HasData(
-                new Administrator
-                {
-                    Id = 1,
-                    UserName = "AdminLN",
-                    NormalizedUserName = "ADMINLN",
-                    FirstName = "Łukasz",
-                    LastName = "Nowak",
-                    BrithDay = new DateTime(1999, 04, 23),
-                    PasswordHash = hasher.HashPassword(null, "Admin123!@#"),
-                    Email = "xd@xd.pl",
-                    NormalizedEmail = "xd@xd.pl",
-                    EmailConfirmed = true,
-                    SecurityStamp = Guid.NewGuid().ToString("D")
-
-                });
-            builder.Entity<Blog>()
-                .HasData(
-                new Blog
-                {
-                    Id = 1,
-                    Name = "Example",
-                    Description = "This is example of an blog you can create."
-                });
         }
     }
 }
